@@ -7,8 +7,8 @@ Cada item da lista será uma aba, siga as nomeclaturas dos IDs, e adicione os pa
 <nav class="navegacaoAbas">
 
     <ul>
-        <li id="aba1" onclick="mostraAba(1);">Geral</li>
-        <li id="aba2" onclick="mostraAba(2);">Painel</li>
+        <li id="aba1" onclick="mostraAba(1);">Aba 1</li>
+        <li id="aba2" onclick="mostraAba(2);">Aba 2</li>
     </ul>
 
 </nav>
