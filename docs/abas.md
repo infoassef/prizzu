@@ -7,8 +7,8 @@ Cada item da lista será uma aba, siga as nomeclaturas dos IDs, e adicione os pa
 <nav class="navegacaoAbas">
 
     <ul>
-        <li id="linkAba1" onclick="mostraAba(1);">Geral</li>
-        <li id="linkAba2" onclick="mostraAba(2);">Painel</li>
+        <li id="aba1" onclick="mostraAba(1);">Geral</li>
+        <li id="aba2" onclick="mostraAba(2);">Painel</li>
     </ul>
 
 </nav>
@@ -18,11 +18,11 @@ Cada item da lista será uma aba, siga as nomeclaturas dos IDs, e adicione os pa
 Dentro do próprio modo, você irá criar o conteúdo de cada aba como mostra o exemplo abaixo:
 
 ```html
-<div id="aba1" class="conteudoAbas">
+<div id="conteudoAba1" class="conteudoAbas">
     <h2>Conteúdo da primeira aba</h2>
 </div>
 
-<div id="aba2" class="conteudoAbas">
+<div id="conteudoAba2" class="conteudoAbas">
     <h2>Conteúdo da segunda aba</h2>
 </div>
 ```
