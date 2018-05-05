@@ -12,6 +12,7 @@ Cada item da lista será uma aba, siga as nomeclaturas dos IDs, e adicione os pa
     </ul>
 
 </nav>
+```
 
 ### 2 - Montando o conteúdo de uma aba
 Dentro do próprio modo, você irá criar o conteúdo de cada aba como mostra o exemplo abaixo:
