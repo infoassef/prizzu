@@ -1,6 +1,6 @@
 # Como criar uma estrutura de abas em um módulo
 
-### Criando as Abas de Navegação
+### 1 - Criando as Abas de Navegação
 Cada item da lista será uma aba, siga as nomeclaturas dos IDs, e adicione os parametros corretos na função mostraNavegacaoAbas();
 
 ```html
