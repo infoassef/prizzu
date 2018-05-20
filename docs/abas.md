@@ -26,3 +26,22 @@ Dentro do próprio modo, você irá criar o conteúdo de cada aba como mostra o 
     <h2>Conteúdo da segunda aba</h2>
 </div>
 ```
+
+### 3 - Validando um campo obrigatório via JS
+Todas as abas são formadas por um mesmo form, com isso utilizam a mesma validação. Um campo ao ser validado será necessário fazer com que a aba que ele esteja seja exibida, desta forma:
+
+Ex: 
+
+Nome do Campo     = campoTeste
+Localizado na Aba = 2
+
+```js
+
+    if(campoTeste == ""){
+        swal('Atenção!', 'Informe o campo: Campo Teste!', 'error');
+        setFocusSweetAlert('campoTeste');
+        mostraAba(2);
+        return false;
+    }
+
+```
