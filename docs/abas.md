@@ -37,11 +37,11 @@ Todas as abas são formadas por um mesmo form, com isso utilizam a mesma valida�
 
 ```js
 
-    if(campoTeste == ""){
-        swal('Atenção!', 'Informe o campo: Campo Teste!', 'error');
-        setFocusSweetAlert('campoTeste');
-        mostraAba(2);
-        return false;
-    }
+if(campoTeste == ""){
+    swal('Atenção!', 'Informe o campo: Campo Teste!', 'error');
+    setFocusSweetAlert('campoTeste');
+    mostraAba(2);
+    return false;
+}
 
 ```
