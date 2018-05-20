@@ -32,8 +32,8 @@ Todas as abas s√£o formadas por um mesmo form, com isso utilizam a mesma valida√
 
 Ex: 
 
-Nome do Campo     = campoTeste
-Localizado na Aba = 2
+.Nome do Campo     = campoTeste
+.Localizado na Aba = 2
 
 ```js
 
